@@ -21,7 +21,7 @@
 #include <math.h>
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+//Anand
 #define B_coefficient 3950.00      /* B coefficient of NTC Thermistor*/
 #define Room_temperature 25.00
 #define Series_Resistance 10000.00

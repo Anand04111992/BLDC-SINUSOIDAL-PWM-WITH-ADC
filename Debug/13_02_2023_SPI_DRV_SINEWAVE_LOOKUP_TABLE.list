@@ -1377,7 +1377,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-	  Get_Temperature();
+	  Get_Temperature(); // get temparature values
  8000fec:	f7ff ff44 	bl	8000e78 <Get_Temperature>
 	  for(k=0;k<111;k++)
  8000ff0:	4b2d      	ldr	r3, [pc, #180]	; (80010a8 <main+0xe8>)
@@ -1476,7 +1476,7 @@ int main(void)
  8001098:	4b03      	ldr	r3, [pc, #12]	; (80010a8 <main+0xe8>)
  800109a:	2200      	movs	r2, #0
  800109c:	801a      	strh	r2, [r3, #0]
-	  Get_Temperature();
+	  Get_Temperature(); // get temparature values
  800109e:	e7a5      	b.n	8000fec <main+0x2c>
  80010a0:	20000784 	.word	0x20000784
  80010a4:	2000069c 	.word	0x2000069c

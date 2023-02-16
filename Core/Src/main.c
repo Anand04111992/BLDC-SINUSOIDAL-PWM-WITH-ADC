@@ -183,7 +183,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-	  Get_Temperature();
+	  Get_Temperature(); // get temparature values
 	  for(k=0;k<111;k++)
 	  {
 		  PhaseA = PhaseA +1;
